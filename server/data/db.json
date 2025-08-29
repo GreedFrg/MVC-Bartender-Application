@@ -1,0 +1,58 @@
+{
+  "cocktails": [
+    {
+      "id": 1,
+      "name": "Margarita",
+      "price": 10,
+      "description": "Tequila, lime, triple sec"
+    },
+    {
+      "id": 2,
+      "name": "Old Fashioned",
+      "price": 12,
+      "description": "Bourbon, bitters, sugar"
+    },
+    {
+      "id": 3,
+      "name": "Mojito",
+      "price": 9,
+      "description": "Rum, mint, lime, soda"
+    },
+    {
+      "id": 4,
+      "name": "Cosmopolitan",
+      "price": 11,
+      "description": "Vodka, cranberry, triple sec, lime"
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "customer_name": "alex",
+      "cocktail_id": 1,
+      "status": "PICKED_UP",
+      "created_at": "2025-08-29 02:47:27",
+      "updated_at": "2025-08-29 03:01:59"
+    },
+    {
+      "id": 2,
+      "customer_name": "Trevor Wilson",
+      "cocktail_id": 1,
+      "status": "PICKED_UP",
+      "created_at": "2025-08-29 02:44:35",
+      "updated_at": "2025-08-29 02:44:41"
+    },
+    {
+      "id": 1,
+      "customer_name": "Trevor Wilson",
+      "cocktail_id": 4,
+      "status": "READY",
+      "created_at": "2025-08-29 02:10:12",
+      "updated_at": "2025-08-29 02:42:12"
+    }
+  ],
+  "lastIds": {
+    "cocktails": 4,
+    "orders": 3
+  }
+}
